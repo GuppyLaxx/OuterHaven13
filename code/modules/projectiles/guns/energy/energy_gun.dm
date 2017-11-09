@@ -1,6 +1,6 @@
 /obj/item/gun/energy/e_gun
-	name = "energy gun"
-	desc = "A basic hybrid energy gun with two settings: disable and kill."
+	name = "\improper MPE7 Energy Gun"
+	desc = "A basic hybrid energy PDW with two settings: disable and kill. Designed by PHK Solutions."
 	icon_state = "energy"
 	item_state = null	//so the human update icon uses the icon_state instead.
 	ammo_type = list(/obj/item/ammo_casing/energy/disabler, /obj/item/ammo_casing/energy/laser)
@@ -12,8 +12,8 @@
 	flight_y_offset = 10
 
 /obj/item/gun/energy/e_gun/mini
-	name = "miniature energy gun"
-	desc = "A small, pistol-sized energy gun with a built-in flashlight. It has two settings: stun and kill."
+	name = "\improper MPE9-S Energy Pistol"
+	desc = "A small, scaled-down MPE7 E-Gun with a built-in flashlight. It has two settings: stun and kill. Designed by PHK Solutions."
 	icon_state = "mini"
 	item_state = "gun"
 	w_class = WEIGHT_CLASS_SMALL
@@ -32,15 +32,15 @@
 		add_overlay("mini-light")
 
 /obj/item/gun/energy/e_gun/stun
-	name = "tactical energy gun"
-	desc = "Military issue energy gun, is able to fire stun rounds."
+	name = "\improper FNH-201 Tactical Energy Gun"
+	desc = "Military issue energy gun with the ability to fire five stun rounds. Designed by FNH Armaments."
 	icon_state = "energytac"
 	ammo_x_offset = 2
 	ammo_type = list(/obj/item/ammo_casing/energy/electrode/spec, /obj/item/ammo_casing/energy/disabler, /obj/item/ammo_casing/energy/laser)
 
 /obj/item/gun/energy/e_gun/old
-	name = "prototype energy gun"
-	desc = "NT-P:01 Prototype Energy Gun. Early stage development of a unique laser rifle that has multifaceted energy lens allowing the gun to alter the form of projectile it fires on command."
+	name = "\improper NT-P:01 Prototype Energy Gun"
+	desc = "Early stage development of a unique laser rifle that has multifaceted energy lens allowing the gun to alter the form of projectile it fires on command."
 	icon_state = "protolaser"
 	ammo_x_offset = 2
 	ammo_type = list(/obj/item/ammo_casing/energy/laser, /obj/item/ammo_casing/energy/electrode/old)
@@ -79,8 +79,8 @@
 	ammo_type = list(/obj/item/ammo_casing/energy/trap)
 
 /obj/item/gun/energy/e_gun/turret
-	name = "hybrid turret gun"
-	desc = "A heavy hybrid energy cannon with two settings: Stun and kill."
+	name = "MSP9 Hybrid Autocannon"
+	desc = "A heavy energy cannon with two settings: Stun and kill."
 	icon_state = "turretlaser"
 	item_state = "turretlaser"
 	slot_flags = null
@@ -92,8 +92,8 @@
 	ammo_x_offset = 2
 
 /obj/item/gun/energy/e_gun/nuclear
-	name = "advanced energy gun"
-	desc = "An energy gun with an experimental miniaturized nuclear reactor that automatically charges the internal power cell."
+	name = "\improper Nuclear Energy Gun"
+	desc = "An energy gun with an experimental miniaturized nuclear reactor that automatically charges the internal power cell. Patented by Oppenheimer Industries."
 	icon_state = "nucgun"
 	item_state = "nucgun"
 	origin_tech = "combat=4;magnets=4;powerstorage=4"

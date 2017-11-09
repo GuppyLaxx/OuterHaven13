@@ -1,5 +1,5 @@
 /obj/item/gun/ballistic/shotgun
-	name = "shotgun"
+	name = "\improper Browning Shotgun"
 	desc = "A traditional shotgun with wood furniture and a four-shell capacity underneath."
 	icon_state = "shotgun"
 	item_state = "shotgun"
@@ -79,7 +79,7 @@
 // RIOT SHOTGUN //
 
 /obj/item/gun/ballistic/shotgun/riot //for spawn in the armory
-	name = "riot shotgun"
+	name = "\improper Moss-94P Riot Shotgun"
 	desc = "A sturdy shotgun with a longer magazine and a fixed tactical stock designed for non-lethal riot control."
 	icon_state = "riotshotgun"
 	mag_type = /obj/item/ammo_box/magazine/internal/shot/riot
@@ -186,7 +186,7 @@
 	src.pump(user)
 
 /obj/item/gun/ballistic/shotgun/automatic/combat
-	name = "combat shotgun"
+	name = "\improper Moss-95A Combat Shotgun"
 	desc = "A semi automatic shotgun with tactical furniture and a six-shell capacity underneath."
 	icon_state = "cshotgun"
 	origin_tech = "combat=6"
@@ -194,7 +194,7 @@
 	w_class = WEIGHT_CLASS_HUGE
 
 /obj/item/gun/ballistic/shotgun/automatic/combat/compact
-	name = "compact combat shotgun"
+	name = "\improper Moss-95AC Combat Shotgun"
 	desc = "A compact version of the semi automatic combat shotgun. For close encounters."
 	icon_state = "cshotgunc"
 	origin_tech = "combat=4;materials=2"
@@ -204,7 +204,7 @@
 //Dual Feed Shotgun
 
 /obj/item/gun/ballistic/shotgun/automatic/dual_tube
-	name = "cycler shotgun"
+	name = "\improper Ithcorp Cycler Shotgun"
 	desc = "An advanced shotgun with two separate magazine tubes, allowing you to quickly toggle between ammo types."
 	icon_state = "cycler"
 	origin_tech = "combat=4;materials=2"

@@ -105,10 +105,10 @@
 	w_class = WEIGHT_CLASS_NORMAL
 
 /obj/item/kitchen/knife/combat
-	name = "combat knife"
+	name = "/improper KM6 Fighting Bayonet"
 	icon_state = "buckknife"
 	item_state = "knife"
-	desc = "A military combat utility survival knife."
+	desc = "A military-issue combat utility survival knife."
 	force = 20
 	throwforce = 20
 	origin_tech = "materials=3;combat=4"
@@ -116,7 +116,7 @@
 	bayonet = TRUE
 
 /obj/item/kitchen/knife/combat/survival
-	name = "survival knife"
+	name = "/improper KS1 Survival Knife"
 	icon_state = "survivalknife"
 	item_state = "knife"
 	desc = "A hunting grade survival knife."
@@ -125,12 +125,12 @@
 	bayonet = TRUE
 
 /obj/item/kitchen/knife/combat/bone
-	name = "bone dagger"
+	name = "bone razor"
 	item_state = "bone_dagger"
 	icon_state = "bone_dagger"
 	lefthand_file = 'icons/mob/inhands/weapons/swords_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/swords_righthand.dmi'
-	desc = "A sharpened bone. The bare mimimum in survival."
+	desc = "A bone sharpened to a keen edge. The bare mimimum in survival."
 	force = 15
 	throwforce = 15
 	materials = list()
@@ -158,7 +158,7 @@
 
 /obj/item/kitchen/rollingpin
 	name = "rolling pin"
-	desc = "Used to knock out the Bartender."
+	desc = "Used to knock out the Bartender and kill goats."
 	icon_state = "rolling_pin"
 	force = 8
 	throwforce = 5

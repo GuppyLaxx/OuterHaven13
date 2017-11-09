@@ -1,6 +1,6 @@
 /obj/item/gun/energy/ionrifle
-	name = "ion rifle"
-	desc = "A man-portable anti-armor weapon designed to disable mechanical threats at range."
+	name = "\improper MKI Ion Rifle"
+	desc = "The MK.I Prototype Ion Projector is a man-portable anti-armor weapon designed to disable mechanical threats at range."
 	icon_state = "ionrifle"
 	item_state = null	//so the human update icon uses the icon_state instead.
 	origin_tech = "combat=4;magnets=4"
@@ -17,7 +17,7 @@
 	return
 
 /obj/item/gun/energy/ionrifle/carbine
-	name = "ion carbine"
+	name = "\improper MKII Ion Carbine"
 	desc = "The MK.II Prototype Ion Projector is a lightweight carbine version of the larger ion rifle, built to be ergonomic and efficient."
 	icon_state = "ioncarbine"
 	w_class = WEIGHT_CLASS_NORMAL
@@ -83,7 +83,7 @@
 	ammo_x_offset = 2
 
 /obj/item/gun/energy/kinetic_accelerator/crossbow
-	name = "mini energy crossbow"
+	name = "\improper SND-1S Crossbow"
 	desc = "A weapon favored by syndicate stealth specialists."
 	icon_state = "crossbow"
 	item_state = "crossbow"
@@ -109,7 +109,7 @@
 	ammo_type = list(/obj/item/ammo_casing/energy/bolt/halloween)
 
 /obj/item/gun/energy/kinetic_accelerator/crossbow/large
-	name = "energy crossbow"
+	name = "\improper SND-3X Crossbow"
 	desc = "A reverse engineered weapon using syndicate technology."
 	icon_state = "crossbowlarge"
 	w_class = WEIGHT_CLASS_NORMAL
@@ -120,7 +120,7 @@
 	pin = null
 
 /obj/item/gun/energy/plasmacutter
-	name = "plasma cutter"
+	name = "\improper 211-V Plasmacutter"
 	desc = "A mining tool capable of expelling concentrated plasma bursts. You could use it to cut limbs off xenos! Or, you know, mine stuff."
 	icon_state = "plasmacutter"
 	item_state = "plasmacutter"
@@ -159,7 +159,7 @@
 	return
 
 /obj/item/gun/energy/plasmacutter/adv
-	name = "advanced plasma cutter"
+	name = "\improper 213-NT Prototype Plasmacutter"
 	icon_state = "adv_plasmacutter"
 	origin_tech = "combat=3;materials=4;magnets=3;plasmatech=4;engineering=2"
 	force = 15
@@ -251,7 +251,7 @@
 	pin = null
 
 /obj/item/gun/energy/temperature/security
-	name = "security temperature gun"
+	name = "\improper SecTemp Rifle"
 	desc = "A weapon that can only be used to its full potential by the truly robust."
 	origin_tech = "combat=2;materials=2;powerstorage=1;magnets=1"
 	pin = /obj/item/device/firing_pin

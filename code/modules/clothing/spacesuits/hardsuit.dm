@@ -725,7 +725,7 @@
 //////Syndicate Version
 
 /obj/item/clothing/suit/space/hardsuit/shielded/syndi
-	name = "blood-red hardsuit"
+	name = "\improper S1-ND Hardsuit"
 	desc = "An advanced hardsuit with built in energy shielding."
 	icon_state = "hardsuit1-syndi"
 	item_state = "syndie_hardsuit"
@@ -741,7 +741,7 @@
 	..()
 
 /obj/item/clothing/head/helmet/space/hardsuit/shielded/syndi
-	name = "blood-red hardsuit helmet"
+	name = "\improper S1-ND Hardsuit Helmet"
 	desc = "An advanced hardsuit helmet with built in energy shielding."
 	icon_state = "hardsuit1-syndi"
 	item_state = "syndie_helm"

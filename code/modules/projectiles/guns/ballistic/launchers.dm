@@ -31,7 +31,7 @@
 	return
 
 /obj/item/gun/ballistic/automatic/gyropistol
-	name = "gyrojet pistol"
+	name = "\improper Gyrojet MKX"
 	desc = "A prototype pistol designed to fire self propelled rockets."
 	icon_state = "gyropistol"
 	fire_sound = 'sound/weapons/grenadelaunch.ogg'
@@ -78,7 +78,7 @@
 
 /obj/item/gun/ballistic/automatic/atlauncher
 	desc = "A pre-loaded, single shot anti-armour launcher."
-	name = "anti-armour grenade launcher"
+	name = "\improper M-04P LAW"
 	icon_state = "rocketlauncher"
 	item_state = "rocketlauncher"
 	mag_type = /obj/item/ammo_box/magazine/internal/rocketlauncher

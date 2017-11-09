@@ -92,7 +92,7 @@
 
 
 /obj/item/gun/ballistic/minigun
-	name = "laser gatling gun"
+	name = "\improper LHMG Gatlingbeam"
 	desc = "An advanced laser cannon with an incredible rate of fire. Requires a bulky backpack power source to use."
 	icon = 'icons/obj/guns/minigun.dmi'
 	icon_state = "minigun_spin"

@@ -1,5 +1,5 @@
 /obj/item/gun/energy/laser
-	name = "laser gun"
+	name = "\improper M5 Lasergun"
 	desc = "A basic energy-based laser gun that fires concentrated beams of light which pass through glass and thin metal."
 	icon_state = "laser"
 	item_state = "laser"
@@ -19,13 +19,13 @@
 	needs_permit = 0
 
 /obj/item/gun/energy/laser/retro
-	name ="retro laser gun"
+	name ="\improper NTV2 Phaser"
 	icon_state = "retro"
 	desc = "An older model of the basic lasergun, no longer used by Nanotrasen's private security or military forces. Nevertheless, it is still quite deadly and easy to maintain, making it a favorite amongst pirates and other outlaws."
 	ammo_x_offset = 3
 
 /obj/item/gun/energy/laser/retro/old
-	name ="laser gun"
+	name ="\improper NTV1 Phaser"
 	icon_state = "retro"
 	desc = "First generation lasergun, developed by Nanotrasen. Suffers from ammo issues but its unique ability to recharge its ammo without the need of a magazine helps compensate. You really hope someone has developed a better lasergun while you were in cyro."
 	ammo_type = list(/obj/item/ammo_casing/energy/lasergun/old)
@@ -43,7 +43,7 @@
 	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | ACID_PROOF
 
 /obj/item/gun/energy/laser/captain/scattershot
-	name = "scatter shot laser rifle"
+	name = "\improper C5-LSW Scattershot"
 	icon_state = "lasercannon"
 	item_state = "laser"
 	desc = "An industrial-grade heavy-duty laser rifle with a modified laser lens to scatter its shot into multiple smaller lasers. The inner-core can self-charge for theoretically infinite use."
@@ -60,12 +60,12 @@
 	return
 
 /obj/item/gun/energy/laser/scatter
-	name = "scatter laser gun"
+	name = "\improper C3LS Refractorbeam"
 	desc = "A laser gun equipped with a refraction kit that spreads bolts."
 	ammo_type = list(/obj/item/ammo_casing/energy/laser/scatter, /obj/item/ammo_casing/energy/laser)
 
 /obj/item/gun/energy/laser/scatter/shotty
-	name = "energy shotgun"
+	name = "\improper C6LS Laser Shotgun"
 	icon = 'icons/obj/guns/projectile.dmi'
 	icon_state = "cshotgun"
 	item_state = "shotgun"
@@ -77,7 +77,7 @@
 ///Laser Cannon
 
 /obj/item/gun/energy/lasercannon
-	name = "accelerator laser cannon"
+	name = "\improper LC-B2 Accelerator Lasercannon"
 	desc = "An advanced laser cannon that does more damage the farther away the target is."
 	icon_state = "lasercannon"
 	item_state = "laser"
@@ -107,8 +107,8 @@
 	transform *= 1 + ((damage/7) * 0.2)//20% larger per tile
 
 /obj/item/gun/energy/xray
-	name = "x-ray laser gun"
-	desc = "A high-power laser gun capable of expelling concentrated x-ray blasts that pass through multiple soft targets and heavier materials."
+	name = "\improper X-Ray Accelerator"
+	desc = "A high-power laser rifle capable of expelling concentrated x-ray blasts that pass through multiple soft targets and heavier materials."
 	icon_state = "xray"
 	item_state = null
 	origin_tech = "combat=6;materials=4;magnets=4;syndicate=1"
