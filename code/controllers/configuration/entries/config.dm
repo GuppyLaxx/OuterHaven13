@@ -159,13 +159,13 @@ CONFIG_DEF(string/wikiurl)
 	value = "http://www.tgstation13.org/wiki"
 
 CONFIG_DEF(string/forumurl)
-	value = "http://tgstation13.org/phpBB/index.php"
+	value = "http://outerhaven13.boards.net/"
 
 CONFIG_DEF(string/rulesurl)
-	value = "http://www.tgstation13.org/wiki/Rules"
+	value = "http://outerhaven13.boards.net/rules"
 
 CONFIG_DEF(string/githuburl)
-	value = "https://www.github.com/tgstation/-tg-station"
+	value = "https://github.com/OuterHaven13/OuterHaven13"
 
 CONFIG_DEF(number/githubrepoid)
 	value = null
